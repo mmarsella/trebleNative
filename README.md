@@ -1,5 +1,5 @@
 
-## Native Starter Kit v1.0.0
+## React Native Seed v1.0.0
 
 ### A [React Native](https://facebook.github.io/react-native/docs/getting-started.html) Starter Kit with [NativeBase](https://nativebase.io/) + [React Navigation](https://reactnavigation.org/) + [Redux](https://github.com/reactjs/redux) Apps (iOS & Android)
 
@@ -29,21 +29,15 @@ $ npm install
   yarn
 ```
 
+
 ### Run on iOS
 
-  * Opt #1:
-		*	Run `npm start` in your terminal
-		*	Scan the QR code in your Expo app
-	*	Opt #2:
-		*	Run `npm run ios` in your terminal
+*	Run `npm start` in your terminal
+*	Run `react-native run-ios` in your terminal
 
 ### Run on Android
 
-  * Opt #1:
-		*	Run `npm start` in your terminal
-		*	Scan the QR code in your Expo app
-	*	Opt #2:
-		*	Run `npm run android` in your terminal
-
+*	Run `npm start` in your terminal
+*	Run `react-native run-android` in your terminal
 
 For apps with more advance designs, please visit **[NativeBase Market](https://market.nativebase.io/)**.

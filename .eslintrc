@@ -9,7 +9,7 @@
 		"jest": true
 	},
 
-	"plugins": [],
+	"plugins": ["flowtype", "prettier", "react"],
 
 	// Map from global var to bool specifying if it can be redefined
 	"globals": {
