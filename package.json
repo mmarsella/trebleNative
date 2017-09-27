@@ -29,7 +29,7 @@
 		"typescript": "^2.4.2"
 	},
 	"scripts": {
-		"start": "npm run build && concurrently -r 'npm run watch' 'react-native start'",
+		"start": "npm run build && concurrently -r 'npm run watch'",
 		"test": "jest && tslint src/**/*.ts && eslint .",
 		"watch": "npm run build -- -w",
 		"ios": "npm run build && concurrently -r 'npm run watch' 'react-native run-ios'",
