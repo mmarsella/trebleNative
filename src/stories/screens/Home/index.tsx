@@ -35,7 +35,7 @@ class Home extends React.Component<Props, State> {
             </Button>
           </Left>
           <Body>
-            <Title>Home</Title>
+            <Title>Homess</Title>
           </Body>
           <Right />
         </Header>

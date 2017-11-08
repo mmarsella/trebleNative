@@ -1,7 +1,7 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import Home from "../../stories/screens/Home";
-import datas from "./data";
+import datas from "./data";  //exported array
 import { fetchList } from "./actions";
 export interface Props {
 	navigation: any;
@@ -18,14 +18,18 @@ class HomeContainer extends React.Component<Props, State> {
 	}
 }
 
+// Dispatches to the store
 function bindAction(dispatch) {
 	return {
 		fetchList: url => dispatch(fetchList(url)),
 	};
 }
 
+// The HomeContainer only cares about data, isLoading
 const mapStateToProps = state => ({
 	data: state.homeReducer.list,
 	isLoading: state.homeReducer.isLoading,
 });
+
+// this connects the home container to the Redux store
 export default connect(mapStateToProps, bindAction)(HomeContainer);

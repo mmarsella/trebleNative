@@ -13,8 +13,8 @@ class Login extends React.Component<Props, State> {
 			<Container>
 				<Header style={{ height: 200 }}>
 					<Body style={{ alignItems: "center" }}>
-						<Icon name="flash" style={{ fontSize: 104 }} />
-						<Title>ReactNativeSeed.com</Title>
+						<Icon name="ios-microphone" style={{ fontSize: 104 }} />
+						<Title>TREBLE</Title>
 						<View padder>
 							<Text style={{ color: Platform.OS === "ios" ? "#000" : "#FFF" }} />
 						</View>

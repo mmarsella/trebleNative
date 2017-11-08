@@ -26,7 +26,14 @@ class BlankPage extends React.Component<Props, State> {
 				</Header>
 
 				<Content padder>
+
+
+
+
 					<Text>{param !== undefined ? param.name.item : "Create Something Awesome . . ."}</Text>
+				
+
+
 				</Content>
 			</Container>
 		);

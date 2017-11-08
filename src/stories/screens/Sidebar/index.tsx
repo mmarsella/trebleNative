@@ -8,6 +8,10 @@ const routes = [
 		caption: "Home",
 	},
 	{
+		route: "CompositionList",
+		caption: "Composition List",
+	},
+	{
 		route: "BlankPage",
 		caption: "Blank Page",
 	},
